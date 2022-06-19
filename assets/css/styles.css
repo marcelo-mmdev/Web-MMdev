@@ -164,6 +164,12 @@ img {
 .nav__logo {
   color: var(--second-color);
 }
+.nav__logo2 {
+  color: var(--second-color);
+  width: 100px;
+  height: 80px;
+  margin-top: 10px;
+}
 
 .nav__toggle {
   color: var(--second-color);
@@ -352,6 +358,8 @@ img {
 
 .work__img img {
   transition: 1s;
+  width: 500px;
+  height: 200px;
 }
 
 .work__img img:hover {

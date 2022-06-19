@@ -16,7 +16,10 @@
         <header class="l-header">
             <nav class="nav bd-grid">
                 <div>
-                    <a href="#" class="nav__logo">MM dev</a>
+                    <a href="#" class="nav__logo">
+                        MM dev
+                        <!-- <img class="nav__logo2" src="assets/img/Logo.png" alt=""> -->
+                    </a>
                 </div>
 
                 <div class="nav__menu" id="nav-menu">
@@ -102,10 +105,12 @@
                     <div>
                         <h2 class="about__subtitle">I'am Marcelo Rodrigues</h2>
                         <p class="about__text">
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                            Voluptate cum expedita quo culpa tempora, assumenda, 
-                            quis fugiat ut voluptates soluta, aut earum nemo recusandae cumque perferendis! 
-                            Recusandae alias accusamus atque.
+                            Programming apprentice and passionate about technology and anime with 
+                            excellent analytical and reasoning skills, responsible, competent, 
+                            determined and easy to learn.<br>
+                            Aprendiz de programação e apaixonado por tecnológia e animes com excelentes capacidades 
+                            de análise e de raciocínio, responsável, competente, determinado 
+                            e com facilidade em aprender.
                         </p>           
                     </div>                                   
                 </div>
@@ -115,41 +120,45 @@
                         <section class="work section" id="work">
                             <h2 class="section-title">Work</h2>
             
-                            <div class="work__container bd-grid">
+                            <div class="work__container bd-grid">    
                                 <div>
                                     <a href="" class="work__img">
-                                        <img src="assets/img/work1.jpg" alt="">
+                                        <img src="assets/img/SiteWeb.png" alt="">
                                     </a>
-                                    <h2 class="about__subtitle">I'am Marcelo Rodrigues</h2>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <h2 class="about__subtitle">Project Web Site</h2>
+                                    <p>
+                                        This is my current web site developed with HTML, CSS and JavaScript. 
+                                        Where I show some of my skills and knowledge in programming.<br>
+                                        Esse a meu atual web site desenvolvido com HTML, CSS e JavaScript.
+                                        Onde eu demostro um pouco das minhas habilidades e conhecimentos em
+                                        programação.
+                                    </p>
                                 </div>
                                 <div>
                                     <a href="" class="work__img">
-                                        <img src="assets/img/work2.jpg" alt="">
+                                        <img src="assets/img/javascript.png" alt="">
                                     </a>
-                                    <h2 class="about__subtitle">I'am Marcelo Rodrigues</h2>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+                                    <h2 class="about__subtitle">Course of JavaScript</h2>
+                                    <p>
+                                        JavaScript course on the youtube channel, where I show 
+                                        a little of the language in a simple way.<br>
+                                        Curso de JavaScript no canal do youtube, onde mostro 
+                                        um pouco da linguagem de uma forma simples.
+                                    </p>
                                 </div>
                                 <div>
-                                    <a href="" class="work__img">
-                                        <img src="assets/img/work3.jpg" alt="">
-                                    </a>
-                                    <h2 class="about__subtitle">I'am Marcelo Rodrigues</h2>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div>
-                                    <a href="" class="work__img">
-                                        <img src="assets/img/work4.jpg" alt="">
-                                    </a>
-                                    <h2 class="about__subtitle">I'am Marcelo Rodrigues</h2>
-                                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
-                                </div>
-                                <div>
-                                    <a href="" class="work__img">
+                                    <a 
+                                        href="https://project-react-js-omega.vercel.app/" 
+                                        target="_blank"  
+                                        class="work__img"
+                                    >
                                         <img src="assets/img/ProjetoList.png" alt="">
                                     </a>
                                     <h2 class="about__subtitle">Project My List</h2>
                                     <p>
+                                        A small and simple project in ReactJS, 
+                                        it aimed to start with the library and improve studies 
+                                        in JavaScript and TypeScript.<br>
                                         Um pequeno e simples projeto em ReactJS, teve como
                                         objetivo iniciar na biblioteca e aprimorar os estudos
                                         em JavaScript e TypeScript.
@@ -165,7 +174,16 @@
                 <div class="skills__container bd-grid">          
                     <div>
                         <h2 class="skills__subtitle">Profesional Skills</h2>
-                        <p class="skills__text">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Velit optio id vero amet, alias architecto consectetur error eum eaque sit.</p>
+                        <p class="skills__text">
+                            Systems Analyst and Developer recently graduated with some 
+                            courses in technology such as Software Development, 
+                            Advanced HTML and CSS, Linux Servers, Introduction to Database, 
+                            Git and Agile Methodology.<br>
+                            Analista e Desenvolvedor de Sistemas recém formado com alguns
+                            cursos na área de tecnologia como Desenvolvimento de Software, 
+                            Avançado de HTML e CSS, Servidores Linux, Introdução á Banco 
+                            de Dados, Git e Metodologia ágeis.
+                        </p>
                         <div class="skills__data">
                             <div class="skills__names">
                                 <i class='bx bxl-html5 skills__icon'></i>
@@ -216,11 +234,14 @@
                 <h2 class="section-title">Contact</h2>
 
                 <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Name" class="contact__input">
-                        <input type="mail" placeholder="Email" class="contact__input">
-                        <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                    <form action="https://api.staticforms.xyz/submit" method="POST" class="contact__form">
+                        <input type="hidden" name="accessKey" value="29ab13e4-675d-409e-9700-e485a56fd19e">
+                        <input type="hidden" name="redirectTo" value="https://web-mm-dev.vercel.app/">
+
+                        <input type="text" name="name" placeholder="Name" class="contact__input" required>
+                        <input type="email" name="email" placeholder="Email" class="contact__input" required>
+                        <textarea name="message" id="" cols="0" rows="10" class="contact__input"></textarea>
+                        <input type="submit" value="Enviar" class="contact__button button">
                     </form>
                 </div>
             </section>
@@ -231,8 +252,8 @@
             <p class="footer__title">Marcelo Rodrigues</p>
             <div class="footer__social">
                 <a href="https://api.whatsapp.com/send?phone=5581989044977" target="_blank" class="footer__icon"><i class='bx bxl-whatsapp' ></i></a>
-                <a href="https://discord.gg/EBbP4JHu" target="_blank" class="footer__icon"><i class='bx bxl-discord' ></i></a>
-                <a href="https://youtube.com" target="_blank" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
+                <a href="https://discord.gg/NNwsxECC" target="_blank" class="footer__icon"><i class='bx bxl-discord' ></i></a>
+                <a href="https://www.youtube.com/channel/UC-k93rfw1OB1eSN7HCl96KQ/videos" target="_blank" class="footer__icon"><i class='bx bxl-youtube' ></i></a>
             </div>
             <p class="footer__copy">&#169; MM dev software</p>
         </footer>
