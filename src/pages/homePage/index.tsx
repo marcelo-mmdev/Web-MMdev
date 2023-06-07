@@ -12,6 +12,8 @@ export default HomePage;
 /**
  * Estudar Urgente
  * https://devglaubermonteiro.vercel.app/
+ * https://www.youtube.com/watch?v=VjiWpGR82t0
+ * 
  *
  *
  * Estudar

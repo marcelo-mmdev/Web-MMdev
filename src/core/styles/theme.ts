@@ -11,6 +11,7 @@ export const ThemeProject = extendTheme({
       "600": "#33044A",
     },
     secondary: {
+      "100": "#222",
       "300": "#A9A9B9",
       "600": "#D9E6E8",
       "900": "#062958",

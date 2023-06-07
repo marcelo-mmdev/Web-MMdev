@@ -1,5 +1,7 @@
 import Head from "next/head";
 import DevelopProjetion from "../components/Layouts/DevelopProjection";
+import NavBar from "../components/Layouts/NavBar";
+import HomeWeb from "../components/Layouts/HomeWeb";
 
 export default function Home() {
   return (
@@ -12,7 +14,9 @@ export default function Home() {
       </Head>
       <main>
         <div>
-          <DevelopProjetion />
+          <NavBar />
+          {/* <DevelopProjetion /> */}
+          <HomeWeb />
         </div>
       </main>
     </>

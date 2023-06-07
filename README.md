@@ -1,38 +1,38 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+Quando um component e reenderizado?
+1 - Quando o component pai e reenderizado
+2 - Quando novas props são recebidas
+3 - Quando existe alguma atualização de estado (setState)
+4 - Contexto e atualizado
 
-## Getting Started
+SQL · Spring Framework · Spring Security · Logon único (SSO) · Microsoft SQL Server · Metodologias Agile · Docker · Controle de acesso com base em função · Spring Boot · Teste de unidade · API REST · Java
 
-First, run the development server:
+Testes de unitários e de integração com Jest
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+- Criação de novos recursos e mantendo API rest desenvolvida em .net, criação de end-points, classes de servico e repositório;
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- Front-end com Angular JS;
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+- Bancos de dados Relacionais SQL (SQL Server, MySql);
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+- Atuação em projeto com metodologia ágil (Scrum/Kanban);
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+- Controle de versionamento com Git e Azure Devops;
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- Criação formulário customizado em power app para páginas no sharepoint.
 
-## Learn More
+* Banco de dados (MySQL, MongoDB, Dynamo)
+* Java (POO, Spring WebFlux, Maven, Gradle, Microservicos, API Rest, JUnit)
+* Desenvolvimento Web (Básico de CSS, HTML, Js)
+* Linux (Intermediário)
+* Algoritmos e Estruturas de Dados
+* Docker (Básico)
+* Amazon Web Services
+* C# (framework .NET, básico)
+* Git (Avançado)
+* Metodologia Ágil (Scrum)
+* Trabalho em Equipe
+* Desenvolver Produtos Digitais
+* Status HTTPS
+* Clean Code e Boas Práticas
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Objetivo e analítico, os Investigadores são desapegados. Geralmente não demostram muitas emoções, eles calmamente buscam de forma independente o cumprimento de uma meta. Investigadores possuem sucesso em muitas coisas, não por conta de sua versatilidade, mas pela sua determinação. Eles buscam por um propósito claro, por meio do qual poderão criar metas de longo prazo. Uma vez que inicia um novo projeto, os Investigadores lutam incansavelmente para atingir seus objetivos. Muitas vezes um investigador precisa de um auxílio para que todo seu esforço seja feito na direção correta. Como resultado disso, eles podem ser vistos como teimosos. Investigadores se dão bem com tarefas nas quais eles pode interpretar dados reais para posteriormente apresentar uma conclusão. Eles respondem as situações de forma mais lógica do que emocional. Quando estão atuando com vendas ou marketing, eles se dão melhor com produtos concretos do que abstratos. Os Investigadores não são preocupados em agradar outras pessoas e preferem trabalhar sozinhos. Muitas vezes são vistos como frios e distantes. Pelo fato de valorizar muito o racional, os Investigadores tendem a julgar as pessoas com base na habilidade delas de utilizar fatos e desenvolver linhas de pensamento. Para melhorar o desempenho de um Investigador, é necessário que o mesmo desenvolva um entendimento melhor de como lidar com pessoas.
