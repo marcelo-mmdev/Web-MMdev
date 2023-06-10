@@ -2,10 +2,10 @@ import React from "react";
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
-import { styles } from "../styles";
-import { services } from "../constants";
-import { SectionWrapper } from "../hoc";
-import { fadeIn, textVariant } from "../utils/motion";
+import { styles } from "../../styles";
+import { services } from "../../tools/constants";
+import { SectionWrapper } from "../../tools/core";
+import { fadeIn, textVariant } from "../../tools/utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -22,7 +22,7 @@ const ServiceCard = ({ index, title, icon }) => (
         className="bg-tertiary rounded-[20px] py-4 px-4 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
-          src="./src/assets/fotoProficional.jpeg"
+          src="./src/assets/company/fotoProficional.jpeg"
           alt="web-development"
           className="w-50 h-60 rounded-[20px] object-contain"
         />

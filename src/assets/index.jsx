@@ -1,12 +1,12 @@
-import logo from "./logo.svg";
-import backend from "./backend.png";
-import creator from "./creator.png";
-import mobile from "./mobile.png";
-import web from "./web.png";
-import github from "./github.png";
-import menu from "./menu.svg";
-import close from "./close.svg";
+import logo from "./svgs/logo.svg";
+import backend from "./projects/backend.png";
+import creator from "./projects/creator.png";
+import mobile from "./projects/mobile.png";
+import web from "./projects/web.png";
+import menu from "./svgs/menu.svg";
+import close from "./svgs/close.svg";
 
+import github from "./tech/github.png";
 import css from "./tech/css.png";
 import docker from "./tech/docker.png";
 import figma from "./tech/figma.png";
@@ -16,18 +16,25 @@ import javascript from "./tech/javascript.png";
 import mongodb from "./tech/mongodb.png";
 import nodejs from "./tech/nodejs.png";
 import reactjs from "./tech/reactjs.png";
-import redux from "./tech/redux.png";
+import angular from "./tech/angular.png";
+import chakra from "./tech/chakra.jpg";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
-import threejs from "./tech/threejs.svg";
+import sqlserver from "./tech/sqlserver.png";
+import postgresql from "./tech/postgresql.png";
 
+// Imports in Experiencias
 import cldf from "./company/logo_cldf 16.svg";
 import comeia from "./company/logoComeia.png";
 import devDuo from "./company/logoIcook.jfif";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+// Imports Imagens Projects
+import ebomounao from "./projects/ebomounao.png";
+import pokedex from "./projects/pokedex.png";
+import projectlist from "./projects/ProjetoList.png";
+import embreve from "./projects/embreve.webp";
+import jobit from "./projects/jobit.png";
+import tripguide from "./projects/tripguide.png";
 
 export {
   logo,
@@ -45,16 +52,23 @@ export {
   html,
   javascript,
   mongodb,
+  postgresql,
   nodejs,
   reactjs,
-  redux,
+  angular,
+  chakra,
   tailwind,
   typescript,
-  threejs,
+  sqlserver,
+  // Experiencias
   cldf,
   comeia,
   devDuo,
-  carrent,
+  // Project
+  ebomounao,
+  pokedex,
+  projectlist,
+  embreve,
   jobit,
   tripguide,
 };

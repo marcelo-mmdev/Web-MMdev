@@ -8,7 +8,8 @@ import {
   html,
   css,
   reactjs,
-  redux,
+  angular,
+  chakra,
   tailwind,
   nodejs,
   mongodb,
@@ -18,11 +19,15 @@ import {
   cldf,
   comeia,
   devDuo,
-  carrent,
+  ebomounao,
   jobit,
   tripguide,
-  threejs,
-} from "../assets";
+  postgresql,
+  sqlserver,
+  embreve,
+  pokedex,
+  projectlist,
+} from "../../assets";
 
 export const navLinks = [
   {
@@ -68,8 +73,12 @@ const technologies = [
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Angular",
+    icon: angular,
+  },
+  {
+    name: "Chakra UI",
+    icon: chakra,
   },
   {
     name: "Tailwind CSS",
@@ -84,20 +93,20 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: "Three JS",
-    icon: threejs,
+    name: "Postgresql",
+    icon: postgresql,
   },
   {
-    name: "git",
-    icon: git,
-  },
-  {
-    name: "figma",
-    icon: figma,
+    name: "SQL Server",
+    icon: sqlserver,
   },
   {
     name: "docker",
     icon: docker,
+  },
+  {
+    name: "git",
+    icon: git,
   },
 ];
 
@@ -133,10 +142,26 @@ const experiences = [
     ],
   },
   {
+    title: "FRONT-END DEVELOPER",
+    company_name: "É bom ou não",
+    icon: "https://github.com/ebomounao.png",
+    iconBg: "#383E56",
+    date: "Ago 2022 - Out 2022",
+    points: [
+      "Application development with React and Next.",
+      "Front-end improvements and maintenance of legacy applications.",
+      "Creation of responsive layouts.",
+      "Consuming Rest APIs.",
+      "Agile methodologies in web development.",
+      "Use of various everyday tools such as Next.JS, ReactJS, ChakraUI, Figma, among others.",
+      "Using best coding practices.",
+    ],
+  },
+  {
     title: "INTERNSHIP DEVELOPER",
     company_name: "Comeia",
     icon: comeia,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Jul 2021 - Dez 2021",
     points: [
       "I participated in the creation processes of some of the company's applications.",
@@ -150,7 +175,7 @@ const experiences = [
     title: "FULL-STACK DEVELOPER",
     company_name: "DevDuo",
     icon: devDuo,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Out 2021 - Dez 2021",
     points: [
       "Application development, improvement and maintenance of front-end and back-end.",
@@ -173,86 +198,140 @@ const testimonials = [
   },
   // {
   //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Anderson",
-  //   designation:
-  //     "Project Manager | TI | Squad as a service | Professor | Consultoria Pedagógica",
-  //   company: "DEF Corp",
-  //   image: "https://github.com/ebomounao.png",
+  //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+  //   name: "Lisa Wang",
+  //   designation: "CTO",
+  //   company: "456 Enterprises",
+  //   image: "https://randomuser.me/api/portraits/women/6.jpg",
   // },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Pokedex",
     description:
       "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "Chakra UI",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: pokedex,
+    source_code_link: "https://github.com/marcelo-mmdev/Pokedex",
   },
   {
-    name: "Job IT",
+    name: "Medusa",
     description:
       "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
     tags: [
       {
-        name: "react",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Next.js",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Chakra UI",
         color: "pink-text-gradient",
       },
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: embreve,
+    source_code_link: "https://github.com/marcelo-mmdev/Medusa",
   },
   {
-    name: "Trip Guide",
+    name: "Pomodoro",
     description:
       "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
     tags: [
       {
-        name: "nextjs",
+        name: "React",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Vite",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: embreve,
+    source_code_link: "https://github.com/marcelo-mmdev/pomodoro",
+  },
+  {
+    name: "É bom ou não",
+    description:
+      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Next.js",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Chakra UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: ebomounao,
+    source_code_link: "https://ebomounao.com.br/",
+  },
+  {
+    name: "Project List",
+    description:
+      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    tags: [
+      {
+        name: "React",
+        color: "blue-text-gradient",
+      },
+      // {
+      //   name: "supabase",
+      //   color: "green-text-gradient",
+      // },
+      {
+        name: "Chakra UI",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: projectlist,
+    source_code_link: "https://project-react-js-omega.vercel.app/",
+  },
+  {
+    name: "Project Stock",
+    description:
+      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    tags: [
+      {
+        name: "Next.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Spring Java",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Docker",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: embreve,
+    source_code_link: "https://github.com/marcelo-mmdev/project_stock",
   },
 ];
 
