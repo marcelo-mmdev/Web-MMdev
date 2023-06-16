@@ -45,6 +45,7 @@ export {
   github,
   menu,
   close,
+  // Balls
   css,
   docker,
   figma,

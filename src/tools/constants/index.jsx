@@ -158,10 +158,23 @@ const experiences = [
     ],
   },
   {
+    title: "FULL-STACK DEVELOPER",
+    company_name: "My Beauty Pass",
+    icon: "https://github.com/My-Beauty-Pass.png",
+    iconBg: "#E6DEDD",
+    date: "Aug 2021 - Aug 2022",
+    points: [
+      "Application development, improvement and maintenance of front-end and back-end.",
+      "Creation of responsive layouts.",
+      "Using Javascript (Angular, Typescript, CSS MaterialUI) and with Java (Spring, POO, Maven, Gradle, Microservicos, Rest API, JUnit).",
+      "Code, perform tests and develop new features, which meet the needs of users.",
+    ],
+  },
+  {
     title: "INTERNSHIP DEVELOPER",
     company_name: "Comeia",
     icon: comeia,
-    iconBg: "#E6DEDD",
+    iconBg: "#383E56",
     date: "Jul 2021 - Dez 2021",
     points: [
       "I participated in the creation processes of some of the company's applications.",
@@ -169,6 +182,19 @@ const experiences = [
       "Always using Java, Javascript and Typescript as the base language.",
       "In addition to other tools such as SQL Server and PostegreSQL.",
       "Where I had the opportunity to learn a lot about Front-end and Back-end.",
+    ],
+  },
+  {
+    title: "FULL-STACK DEVELOPER",
+    company_name: "My Beauty Pass",
+    icon: "https://github.com/My-Beauty-Pass.png",
+    iconBg: "#E6DEDD",
+    date: "Aug 2021 - Aug 2022",
+    points: [
+      "Application development, improvement and maintenance of front-end and back-end.",
+      "Creation of responsive layouts.",
+      "Using Javascript (Angular, Typescript, CSS MaterialUI) and with Java (Spring, POO, Maven, Gradle, Microservicos, Rest API, JUnit).",
+      "Code, perform tests and develop new features, which meet the needs of users.",
     ],
   },
   {
@@ -246,7 +272,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: embreve,
+    image: tripguide,
     source_code_link: "https://github.com/marcelo-mmdev/Medusa",
   },
   {
