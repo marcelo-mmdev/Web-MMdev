@@ -3,30 +3,36 @@ import {
   backend,
   creator,
   web,
-  javascript,
-  typescript,
+  // Balls
   html,
   css,
+  javascript,
+  typescript,
   reactjs,
   angular,
   chakra,
-  tailwind,
   nodejs,
   mongodb,
-  git,
-  figma,
-  docker,
-  cldf,
-  comeia,
-  devDuo,
-  ebomounao,
-  jobit,
-  tripguide,
   postgresql,
   sqlserver,
-  embreve,
+  docker,
+  git,
+  // ****
+  // Experiencias
+  comeia,
+  cldf,
+  devDuo,
+  // ****
+  // Projects
   pokedex,
+  tripguide,
+  embreve,
+  ebomounao,
   projectlist,
+  // ****
+  // Feedbacks
+  chico,
+  // ****
 } from "../../assets";
 
 export const navLinks = [
@@ -46,7 +52,7 @@ export const navLinks = [
 
 const services = [
   {
-    title: "Software Engineer",
+    title: "Developer Full-Stack",
     icon: web,
   },
 ];
@@ -79,10 +85,6 @@ const technologies = [
   {
     name: "Chakra UI",
     icon: chakra,
-  },
-  {
-    name: "Tailwind CSS",
-    icon: tailwind,
   },
   {
     name: "Node JS",
@@ -146,7 +148,7 @@ const experiences = [
     company_name: "É bom ou não",
     icon: "https://github.com/ebomounao.png",
     iconBg: "#383E56",
-    date: "Ago 2022 - Out 2022",
+    date: "Aug 2022 - Out 2022",
     points: [
       "Application development with React and Next.",
       "Front-end improvements and maintenance of legacy applications.",
@@ -186,22 +188,9 @@ const experiences = [
   },
   {
     title: "FULL-STACK DEVELOPER",
-    company_name: "My Beauty Pass",
-    icon: "https://github.com/My-Beauty-Pass.png",
-    iconBg: "#E6DEDD",
-    date: "Aug 2021 - Aug 2022",
-    points: [
-      "Application development, improvement and maintenance of front-end and back-end.",
-      "Creation of responsive layouts.",
-      "Using Javascript (Angular, Typescript, CSS MaterialUI) and with Java (Spring, POO, Maven, Gradle, Microservicos, Rest API, JUnit).",
-      "Code, perform tests and develop new features, which meet the needs of users.",
-    ],
-  },
-  {
-    title: "FULL-STACK DEVELOPER",
     company_name: "DevDuo",
     icon: devDuo,
-    iconBg: "#383E56",
+    iconBg: "#E6DEDD",
     date: "Out 2021 - Dez 2021",
     points: [
       "Application development, improvement and maintenance of front-end and back-end.",
@@ -217,11 +206,20 @@ const testimonials = [
     testimonial:
       "Profissional organizado, transparente nas estimativas e andamento do trabalho. Disposto sempre a aprender e buscando conhecimentos necessários para realizar entregas com valor.",
     name: "Francisco Rodrigues",
+    src: "https://www.linkedin.com/in/francisco-rodrigues87/",
     designation:
       "Project Manager | TI | Squad as a service | Professor | Consultoria Pedagógica",
     company: "Comeia",
-    image: "https://linkedin.com/in/francisco-rodrigues87/overlay/photo/",
+    image: chico,
   },
+  // {
+  //   testimonial:
+  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
+  //   name: "Chris Brown",
+  //   designation: "COO",
+  //   company: "DEF Corp",
+  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
+  // },
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
@@ -326,10 +324,6 @@ const projects = [
         name: "React",
         color: "blue-text-gradient",
       },
-      // {
-      //   name: "supabase",
-      //   color: "green-text-gradient",
-      // },
       {
         name: "Chakra UI",
         color: "pink-text-gradient",

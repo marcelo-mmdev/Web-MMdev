@@ -1,12 +1,12 @@
 import React from "react";
 
-import { BallCanvas } from "../animation";
-import { SectionWrapper } from "../../tools/core";
-import { technologies } from "../../tools/constants";
+import { BallCanvas } from "../canvas";
+import { SectionWrapper } from "../../config/hoc";
+import { technologies } from "../../config/constants";
 
 const Tech = () => {
   return (
-    <div className="flex flex-row flex-wrap justify-center p-[-50] gap-5">
+    <div className="flex flex-row flex-wrap justify-center gap-5">
       {technologies.map((technology) => (
         <div className="w-28 h-28" key={technology.name}>
           <BallCanvas icon={technology.icon} />

@@ -4,8 +4,8 @@
 
 ## Introduction
 
-- npm install --legacy-peer-deps react-tilt
+-
 
 ## Projeto
 
-⭐
+⭐ npm install --legacy-peer-deps react-tilt

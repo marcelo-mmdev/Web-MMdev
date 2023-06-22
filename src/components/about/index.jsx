@@ -3,9 +3,9 @@ import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
 import { styles } from "../../styles";
-import { services } from "../../tools/constants";
-import { SectionWrapper } from "../../tools/core";
-import { fadeIn, textVariant } from "../../tools/utils/motion";
+import { services } from "../../config/constants";
+import { SectionWrapper } from "../../config/hoc";
+import { fadeIn, textVariant } from "../../config/utils/motion";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -19,11 +19,11 @@ const ServiceCard = ({ index, title, icon }) => (
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary rounded-[20px] py-4 px-4 min-h-[280px] flex justify-evenly items-center flex-col"
+        className="bg-tertiary rounded-[20px] py-5 px-2 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
           src="./src/assets/company/fotoProficional.jpeg"
-          alt="web-development"
+          alt="Developer Full-Stack"
           className="w-50 h-60 rounded-[20px] object-contain"
         />
 
@@ -47,13 +47,13 @@ const About = () => {
             <h2 className={styles.sectionHeadText}>Marcelo Rodrigues.</h2>
           </motion.div>
 
-          <div className="flex gap-10">
-            <div className="mt-10 flex flex-wrap gap-10">
+          <div className="mt-10 flex flex-row justify-between gap-5">
+            <div className="flex">
               {services.map((service, index) => (
                 <ServiceCard key={service.title} index={index} {...service} />
               ))}
             </div>
-            <div className="mt-10 flex flex-wrap gap-10">
+            <div className="mt-1 flex flex-row">
               <motion.p
                 variants={fadeIn("", "", 0.1, 1)}
                 className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"

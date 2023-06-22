@@ -3,38 +3,39 @@ import backend from "./projects/backend.png";
 import creator from "./projects/creator.png";
 import mobile from "./projects/mobile.png";
 import web from "./projects/web.png";
+import github from "./tech/github.png";
 import menu from "./svgs/menu.svg";
 import close from "./svgs/close.svg";
-
-import github from "./tech/github.png";
-import css from "./tech/css.png";
-import docker from "./tech/docker.png";
-import figma from "./tech/figma.png";
-import git from "./tech/git.png";
+// Balls
 import html from "./tech/html.png";
+import css from "./tech/css.png";
 import javascript from "./tech/javascript.png";
-import mongodb from "./tech/mongodb.png";
-import nodejs from "./tech/nodejs.png";
+import typescript from "./tech/typescript.png";
 import reactjs from "./tech/reactjs.png";
 import angular from "./tech/angular.png";
 import chakra from "./tech/chakra.jpg";
-import tailwind from "./tech/tailwind.png";
-import typescript from "./tech/typescript.png";
-import sqlserver from "./tech/sqlserver.png";
+import nodejs from "./tech/nodejs.png";
+import mongodb from "./tech/mongodb.png";
 import postgresql from "./tech/postgresql.png";
-
-// Imports in Experiencias
-import cldf from "./company/logo_cldf 16.svg";
+import sqlserver from "./tech/sqlserver.png";
+import docker from "./tech/docker.png";
+import git from "./tech/git.png";
+// ****
+// Experiencias
 import comeia from "./company/logoComeia.png";
+import cldf from "./svgs/logo_cldf 16.svg";
 import devDuo from "./company/logoIcook.jfif";
-
-// Imports Imagens Projects
-import ebomounao from "./projects/ebomounao.png";
+// ****
+// Projects
 import pokedex from "./projects/pokedex.png";
-import projectlist from "./projects/ProjetoList.png";
-import embreve from "./projects/embreve.webp";
-import jobit from "./projects/jobit.png";
 import tripguide from "./projects/tripguide.png";
+import embreve from "./projects/embreve.webp";
+import ebomounao from "./projects/ebomounao.png";
+import projectlist from "./projects/ProjetoList.png";
+// ****
+// Feedbacks
+import chico from "./company/chico.jpg";
+// ****
 
 export {
   logo,
@@ -46,30 +47,33 @@ export {
   menu,
   close,
   // Balls
-  css,
-  docker,
-  figma,
-  git,
   html,
+  css,
   javascript,
-  mongodb,
-  postgresql,
-  nodejs,
+  typescript,
   reactjs,
   angular,
   chakra,
-  tailwind,
-  typescript,
+  nodejs,
+  mongodb,
+  postgresql,
   sqlserver,
+  docker,
+  git,
+  // ****
   // Experiencias
-  cldf,
   comeia,
+  cldf,
   devDuo,
+  // ****
   // Project
-  ebomounao,
   pokedex,
-  projectlist,
-  embreve,
-  jobit,
   tripguide,
+  embreve,
+  ebomounao,
+  projectlist,
+  // ****
+  // Feedbacks
+  chico,
+  // ****
 };

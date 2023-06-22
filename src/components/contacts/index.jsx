@@ -3,9 +3,9 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 
 import { styles } from "../../styles";
-import { EarthCanvas } from "../animation";
-import { SectionWrapper } from "../../tools/core";
-import { slideIn } from "../../tools/utils/motion";
+import { EarthCanvas } from "../canvas";
+import { SectionWrapper } from "../../config/hoc";
+import { slideIn } from "../../config/utils/motion";
 
 const Contact = () => {
   const formRef = useRef();
@@ -37,9 +37,9 @@ const Contact = () => {
         import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
         {
           from_name: form.name,
-          to_name: "Site MM dev",
+          to_name: "JavaScript Mastery",
           from_email: form.email,
-          to_email: "marcelo.mmdev@gmail.com",
+          to_email: "sujata@jsmastery.pro",
           message: form.message,
         },
         import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY

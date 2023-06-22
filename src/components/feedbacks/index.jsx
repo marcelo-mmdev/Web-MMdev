@@ -2,14 +2,16 @@ import React from "react";
 import { motion } from "framer-motion";
 
 import { styles } from "../../styles";
-import { SectionWrapper } from "../../tools/core";
-import { fadeIn, textVariant } from "../../tools/utils/motion";
-import { testimonials } from "../../tools/constants";
+import { SectionWrapper } from "../../config/hoc";
+import { fadeIn, textVariant } from "../../config/utils/motion";
+import { testimonials } from "../../config/constants";
+import { Link } from "react-router-dom";
 
 const FeedbackCard = ({
   index,
   testimonial,
   name,
+  src,
   designation,
   company,
   image,
@@ -26,7 +28,11 @@ const FeedbackCard = ({
       <div className="mt-7 flex justify-between items-center gap-1">
         <div className="flex-1 flex flex-col">
           <p className="text-white font-medium text-[16px]">
-            <span className="blue-text-gradient">@</span> {name}
+            <span className="blue-text-gradient">
+              <Link to={src} target="_blank">
+                @ {name}
+              </Link>
+            </span>{" "}
           </p>
           <p className="mt-1 text-secondary text-[12px]">
             {designation} of {company}
