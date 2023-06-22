@@ -212,14 +212,15 @@ const testimonials = [
     company: "Comeia",
     image: chico,
   },
-  // {
-  //   testimonial:
-  //     "I've never met a web developer who truly cares about their clients' success like Rick does.",
-  //   name: "Chris Brown",
-  //   designation: "COO",
-  //   company: "DEF Corp",
-  //   image: "https://randomuser.me/api/portraits/men/5.jpg",
-  // },
+  {
+    testimonial:
+      "Fiz parte de alguns projetos com o Marcelo, vejo um grande potencial nele e posso afirmar que é um ótimo profissional com muitas qualidades, como: ótima comunicação, bom pensamento logico, tomada de decisão e traz segurança para a equipe na qual ele faz parte. Adoraria trabalhar novamente com o Marcelo, pois é um grande possifional e um grande amigo.",
+    name: "Douglas de Oliveira",
+    designation:
+      "Desenvolvedor FullStack | React | Node | TypeScript | MySQL | MongoDB | Express",
+    company: "METAVERSE TECHNOLOGIES",
+    // image: "",
+  },
   // {
   //   testimonial:
   //     "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
