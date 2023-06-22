@@ -2,7 +2,7 @@ const ButtonPDF = () => {
   return (
     <a
       download=""
-      href="/config/pdf/ManoelMarcelo.pdf"
+      href="config/pdf/ManoelMarcelo.pdf"
       target="_blank"
       className="button"
     >
