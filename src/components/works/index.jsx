@@ -4,6 +4,7 @@ import { motion } from "framer-motion";
 
 import { styles } from "../../styles";
 import { github } from "../../assets";
+import { world } from "../../assets";
 import { SectionWrapper } from "../../config/hoc";
 import { projects } from "../../config/constants";
 import { fadeIn, textVariant } from "../../config/utils/motion";
@@ -14,6 +15,7 @@ const ProjectCard = ({
   description,
   tags,
   image,
+  web_link,
   source_code_link,
 }) => {
   return (
@@ -33,7 +35,17 @@ const ProjectCard = ({
             className="w-full h-full object-cover rounded-2xl"
           />
 
-          <div className="absolute inset-0 flex justify-end m-3 card-img_hover">
+          <div className="absolute inset-0 flex justify-end m-3 card-img_hover gap-1">
+            <div
+              onClick={() => window.open(web_link, "_blank")}
+              className="blue-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={world}
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
             <div
               onClick={() => window.open(source_code_link, "_blank")}
               className="black-gradient w-10 h-10 rounded-full flex justify-center items-center cursor-pointer"
@@ -41,7 +53,7 @@ const ProjectCard = ({
               <img
                 src={github}
                 alt="source code"
-                className="w-1/2 h-1/2 object-contain"
+                className="w-2/3 h-2/3 object-contain"
               />
             </div>
           </div>

@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
+import { github } from "../../assets";
 
 import { styles } from "../../styles";
 import { EarthCanvas } from "../canvas";
@@ -116,12 +117,59 @@ const Contact = () => {
             />
           </label>
 
-          <button
-            type="submit"
-            className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
-          >
-            {loading ? "Sending..." : "Send"}
-          </button>
+          <div className="flex gap-6">
+            <button
+              type="submit"
+              className="bg-tertiary py-3 px-8 rounded-xl outline-none w-fit text-white font-bold shadow-md shadow-primary"
+            >
+              {loading ? "Sending..." : "Send"}
+            </button>
+            {/* <div
+              onClick={() =>
+                window.open(
+                  "https://project-react-js-omega.vercel.app/",
+                  "_blank"
+                )
+              }
+              className="black-gradient w-10 h-10 mt-5 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+            <div
+              // onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 mt-5 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+            <div
+              // onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 mt-5 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div>
+            <div
+              // onClick={() => window.open(source_code_link, "_blank")}
+              className="black-gradient w-10 h-10 mt-5 rounded-full flex justify-center items-center cursor-pointer"
+            >
+              <img
+                src={github}
+                alt="source code"
+                className="w-2/3 h-2/3 object-contain"
+              />
+            </div> */}
+          </div>
         </form>
       </motion.div>
 

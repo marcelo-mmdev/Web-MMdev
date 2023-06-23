@@ -235,8 +235,7 @@ const testimonials = [
 const projects = [
   {
     name: "Pokedex",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    description: "",
     tags: [
       {
         name: "React",
@@ -252,12 +251,12 @@ const projects = [
       },
     ],
     image: pokedex,
+    web_link: "",
     source_code_link: "https://github.com/marcelo-mmdev/Pokedex",
   },
   {
     name: "Medusa",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    description: "",
     tags: [
       {
         name: "React",
@@ -273,12 +272,12 @@ const projects = [
       },
     ],
     image: tripguide,
+    web_link: "",
     source_code_link: "https://github.com/marcelo-mmdev/Medusa",
   },
   {
     name: "Pomodoro",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    description: "",
     tags: [
       {
         name: "React",
@@ -294,12 +293,12 @@ const projects = [
       },
     ],
     image: embreve,
+    web_link: "",
     source_code_link: "https://github.com/marcelo-mmdev/pomodoro",
   },
   {
     name: "É bom ou não",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    description: "",
     tags: [
       {
         name: "React",
@@ -315,12 +314,12 @@ const projects = [
       },
     ],
     image: ebomounao,
+    web_link: "",
     source_code_link: "https://ebomounao.com.br/",
   },
   {
     name: "Project List",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+    description: "",
     tags: [
       {
         name: "React",
@@ -332,7 +331,8 @@ const projects = [
       },
     ],
     image: projectlist,
-    source_code_link: "https://project-react-js-omega.vercel.app/",
+    web_link: "https://project-react-js-omega.vercel.app/",
+    source_code_link: "https://github.com/marcelo-mmdev/Project-ReactJS",
   },
   {
     name: "Project Stock",
@@ -353,6 +353,7 @@ const projects = [
       },
     ],
     image: embreve,
+    web_link: "",
     source_code_link: "https://github.com/marcelo-mmdev/project_stock",
   },
 ];

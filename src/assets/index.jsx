@@ -4,6 +4,7 @@ import creator from "./projects/creator.png";
 import mobile from "./projects/mobile.png";
 import web from "./projects/web.png";
 import github from "./tech/github.png";
+import world from "./svgs/world.svg";
 import menu from "./svgs/menu.svg";
 import close from "./svgs/close.svg";
 import foto from "./company/fotoProficional.jpeg";
@@ -45,6 +46,7 @@ export {
   mobile,
   web,
   github,
+  world,
   menu,
   close,
   foto,
