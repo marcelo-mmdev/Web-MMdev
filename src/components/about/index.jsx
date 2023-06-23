@@ -22,8 +22,8 @@ const ServiceCard = ({ index, title, icon }) => (
         className="bg-tertiary rounded-[20px] py-5 px-2 min-h-[280px] flex justify-evenly items-center flex-col"
       >
         <img
-          src="/assets/company/fotoProficional.jpeg"
-          alt="Developer Full-Stack."
+          src="src/assets/company/fotoProficional.jpeg"
+          alt="Developer Full-Stack.."
           className="w-50 h-60 rounded-[20px] object-contain"
         />
 
