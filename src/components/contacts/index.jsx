@@ -83,7 +83,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your Name</span>
             <input
-              id="name"
+              required
               type="text"
               name="name"
               value={form.name}
@@ -95,6 +95,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
+              required
               type="email"
               name="email"
               value={form.email}
