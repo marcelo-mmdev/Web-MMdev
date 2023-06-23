@@ -3,6 +3,7 @@ import {
   backend,
   creator,
   web,
+  foto,
   // Balls
   html,
   css,
@@ -53,7 +54,7 @@ export const navLinks = [
 const services = [
   {
     title: "Developer Full-Stack",
-    icon: web,
+    icon: foto,
   },
 ];
 

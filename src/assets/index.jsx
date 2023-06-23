@@ -6,6 +6,7 @@ import web from "./projects/web.png";
 import github from "./tech/github.png";
 import menu from "./svgs/menu.svg";
 import close from "./svgs/close.svg";
+import foto from "./company/fotoProficional.jpeg";
 // Balls
 import html from "./tech/html.png";
 import css from "./tech/css.png";
@@ -46,6 +47,7 @@ export {
   github,
   menu,
   close,
+  foto,
   // Balls
   html,
   css,
