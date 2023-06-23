@@ -6,7 +6,6 @@ import { styles } from "../../styles";
 import { services } from "../../config/constants";
 import { SectionWrapper } from "../../config/hoc";
 import { fadeIn, textVariant } from "../../config/utils/motion";
-import FotoPerfil from "../fotoPerfil";
 
 const ServiceCard = ({ index, title, icon }) => (
   <Tilt className="xs:w-[250px] w-full">
@@ -22,13 +21,17 @@ const ServiceCard = ({ index, title, icon }) => (
         }}
         className="bg-tertiary rounded-[20px] py-5 px-2 min-h-[280px] flex justify-evenly items-center flex-col"
       >
-        <FotoPerfil />
+        <img
+          src={icon}
+          alt="Developer Full-Stack"
+          className="w-50 h-60 rounded-[20px] object-contain"
+        />
+
         <h3 className="text-white text-[14px] py-2 font-bold text-center">
           {title}
         </h3>
       </div>
     </motion.div>
-    <FotoPerfil />
   </Tilt>
 );
 
